@@ -1,2 +1,25 @@
-# Capstone_Project
-Final Capstone Project for General Assembly DSI Course
+# Predicting UK Gender Pay Gap Statistics Using Company Data and Employee Reviews
+### General Assembly - Data Science Immersive course - Capstone Project Presented to Cohort
+
+## 1. Repository Contents:
+- [Project Presentation](Capstone_Project_Presentation.pdf)
+- [1 Indeed Web Scraping](1_indeed_scraping)
+- [2 Companies House API](2_CH_API)
+- [3 Gender Guesser](3_gender_guesser)
+- [4 Combining and Cleaning the Data](4_combining_and_cleaning)
+- [5 EDA](5_EDA)
+- [6 Data Modelling](6_final_models)
+  
+  
+## 2. Project Goal and Data Collection
+The gender pay gap is the difference in the average hourly wage of all men and women across a workforce. If women do more of the less well paid jobs within an organisation than men, such as part time work or less senior roles, the gender pay gap is usually bigger.
+
+Using a range of data relating to company information and employee reviews, the aim of this project was to determine which factors best predict whether a company will have better or worse gender pay gap statistics. 
+
+The gender pay gap data came from the UK Government website, which included basic company information and a range of different measures of gender pay gap performance, including the mean gender pay gap - this shows the mean difference in hourly wage as a percentage.
+
+I obtained further company data from the Companies House website using the CH API. I also performed web scraping to gather employee review data from the job posting website, indeed.com.
+
+
+## 3. Data Modelling and Insights
+A range of models were applied to the data, using a number of different scenarios. For example, by using both continuoius or categorical dependent variables, with 2 and 3 categories tried. Additionally, various different models were used such as Logistic, Support Vector Machines, K Nearest Neighbours, Random Forest and Decision Tree. 
