@@ -4,6 +4,7 @@
 
 ### General Assembly - Data Science Immersive course - Capstone Project Presented to Cohort
 
+
 ## 1. Repository Contents:
 - [Project Presentation](Capstone_Project_Presentation.pdf)
 - [1 Indeed Web Scraping](1_indeed_scraping)
