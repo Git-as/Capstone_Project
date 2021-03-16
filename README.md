@@ -6,12 +6,12 @@
 
 ## 1. Repository Contents:
 - [Project Presentation](Capstone_Project_Presentation.pdf)
-- [1 Indeed Web Scraping](1_indeed_scraping)
-- [2 Companies House API](2_CH_API)
-- [3 Gender Guesser](3_gender_guesser)
-- [4 Combining and Cleaning the Data](4_combining_and_cleaning)
-- [5 EDA](5_EDA)
-- [6 Data Modelling](6_final_models)
+- [Indeed Web Scraping](1_indeed_scraping)
+- [Companies House API](2_CH_API)
+- [Gender Guesser](3_gender_guesser)
+- [Combining and Cleaning the Data](4_combining_and_cleaning)
+- [EDA](5_EDA)
+- [Data Modelling](6_final_models)
   
   
 ## 2. Project Goal and Data Collection
