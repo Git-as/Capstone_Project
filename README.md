@@ -1,3 +1,5 @@
+<img src="http://imgur.com/1ZcRyrc.png" align="left" height="55px">
+
 # Predicting UK Gender Pay Gap Statistics Using Company Data and Employee Reviews
 ### General Assembly - Data Science Immersive course - Capstone Project Presented to Cohort
 
