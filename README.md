@@ -30,18 +30,18 @@ A range of models were applied to the data, using a number of different scenario
 The favoured model with the best outcome was the Logistic regression model, using 2 categories - below median gender pay gap and above median gender pay gap.
 
 ### Sector Insights
-Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. 
-The majority of individuals enrolling in courses related to these fields were male. 
+<b> Key Takeaway: Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. 
+The majority of individuals enrolling in courses related to these fields were male. </b>
 
 <a href="https://imgur.com/ihYWal6"><img src="https://imgur.com/ihYWal6.png" title="source: imgur.com" /></a>
 
 
 ### Geographical Insights
-The Midlands typically had a lower pay gap compared to the South of England.
+<b> Key Takeaway: The Midlands typically had a lower pay gap compared to the South of England.</b>
 
 <a href="https://imgur.com/rNxlttL"><img src="https://imgur.com/rNxlttL.png" title="source: imgur.com" /></a>
 
 ### Behavioural Insights
-Reviews indicating a lack of career progression or low salary are linked with an above median gender pay gap.
+<b> Key Takeaway: Reviews indicating a lack of career progression or low salary are linked with an above median gender pay gap. </b>
 
 <a href="https://imgur.com/pbZcMZ4"><img src="https://imgur.com/pbZcMZ4.png" title="source: imgur.com" /></a>
