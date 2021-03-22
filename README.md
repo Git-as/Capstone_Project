@@ -1,10 +1,10 @@
 <img src="http://imgur.com/1ZcRyrc.png" align="left" height="55px">
 
-### General Assembly - Data Science Immersive course
+### General Assembly - Data Science Immersive Course - Capstone Project Presented to Cohort
 
 # Predicting UK Gender Pay Gap Statistics Using Company Data and Employee Reviews
 
-## 1. Repository Contents:
+## 1. Repository Contents
 - [Project Presentation](Capstone_Project_Presentation.pdf)
 - [Indeed Web Scraping](1_indeed_scraping)
 - [Companies House API](2_CH_API)
@@ -25,22 +25,19 @@ I obtained further company data from the Companies House website using the CH AP
 
 
 ## 3. Data Modelling and Insights
-A range of models were applied to the data, using a number of different scenarios. For example, by using both continuoius or categorical dependent variables, with 2 and 3 categories tried. Various different models were used including Linear, Logistic, Support Vector Machines, K Nearest Neighbours, Random Forest and Decision Tree.
+A range of models were applied to the data, using a number of different scenarios. For example, by using both continuous or categorical dependent variables, with 2 and 3 categories tried. Various different models were used including Linear, Logistic, Support Vector Machines, K Nearest Neighbours, Random Forest and Decision Tree.
 
 The favoured model with the best outcome was the Logistic regression model, using 2 categories - below median gender pay gap and above median gender pay gap.
 
 ### Sector Insights
-
-
-
+Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. The majority of individuals enrolling in courses related to these fields were male. 
+![alt text](https://github.com/git-as/Capstone_Project/images/sector.jpg?raw=true)
 
 ### Geographical Insights
-
-
-
+The Midlands typically had a lower pay gap compared to the South of England.
+![alt text](https://github.com/git-as/Capstone_Project/images/location.jpg?raw=true)
 
 ### Behavioural Insights
-
-
-
-
+Reviews indicating a lack of career progression or low salary are linked with an above median gender pay gap.
+![alt text](https://github.com/git-as/Capstone_Project/images/review_below.jpg?raw=true)
+![alt text](https://github.com/git-as/Capstone_Project/images/review_above.jpg?raw=true)
