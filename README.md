@@ -4,13 +4,13 @@
 
 # Predicting UK Gender Pay Gap Statistics Using Company Data and Employee Reviews
 
-## 1. Repository Contents
+## 1. Repository Contents:
 - [Project Presentation](Capstone_Project_Presentation.pdf)
-- [Indeed Web Scraping](1_indeed_scraping)
-- [Companies House API](2_CH_API)
-- [Gender Guesser](3_gender_guesser)
-- [Combining and Cleaning the Data](4_combining_and_cleaning)
-- [EDA](5_EDA)
+- [Indeed Web Scraping](1_indeed_scraping.ipynb)
+- [Companies House API](2_CH_API.ipynb)
+- [Gender Guesser](3_gender_guesser.ipynb)
+- [Combining and Cleaning the Data](4_combining_and_cleaning.ipynb)
+- [EDA](5_EDA.ipynb)
 - [Data Modelling](6_final_models)
   
   
@@ -33,7 +33,7 @@ The favoured model with the best outcome was the Logistic regression model, usin
 Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. 
 The majority of individuals enrolling in courses related to these fields were male. 
 
-<a href="https://imgur.com/pbZcMZ4"><img src="https://imgur.com/pbZcMZ4.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/ihYWal6"><img src="https://imgur.com/ihYWal6.png" title="source: imgur.com" /></a>
 
 
 ### Geographical Insights
