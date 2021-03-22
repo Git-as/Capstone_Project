@@ -44,6 +44,4 @@ The Midlands typically had a lower pay gap compared to the South of England.
 ### Behavioural Insights
 Reviews indicating a lack of career progression or low salary are linked with an above median gender pay gap.
 
-<a href="https://imgur.com/T3tp41T"><img src="https://imgur.com/T3tp41T.png" title="source: imgur.com" /></a>
-
-<a href="https://imgur.com/gaZcNBV"><img src="https://imgur.com/gaZcNBV.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/pbZcMZ4"><img src="https://imgur.com/pbZcMZ4.png" title="source: imgur.com" /></a>
