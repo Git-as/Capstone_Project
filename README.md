@@ -30,14 +30,20 @@ A range of models were applied to the data, using a number of different scenario
 The favoured model with the best outcome was the Logistic regression model, using 2 categories - below median gender pay gap and above median gender pay gap.
 
 ### Sector Insights
-Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. The majority of individuals enrolling in courses related to these fields were male. 
-![alt text](https://github.com/git-as/Capstone_Project/images/sector.jpg?raw=true)
+Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. 
+The majority of individuals enrolling in courses related to these fields were male. 
+
+<a href="https://imgur.com/UCPTUIY"><img src="https://imgur.com/UCPTUIY.png" title="source: imgur.com" /></a>
+
 
 ### Geographical Insights
 The Midlands typically had a lower pay gap compared to the South of England.
-![alt text](https://github.com/git-as/Capstone_Project/images/location.jpg?raw=true)
+
+<a href="https://imgur.com/Xknq5xs"><img src="https://imgur.com/Xknq5xs.png" title="source: imgur.com" /></a>
 
 ### Behavioural Insights
 Reviews indicating a lack of career progression or low salary are linked with an above median gender pay gap.
-![alt text](https://github.com/git-as/Capstone_Project/images/review_below.jpg?raw=true)
-![alt text](https://github.com/git-as/Capstone_Project/images/review_above.jpg?raw=true)
+
+<a href="https://imgur.com/T3tp41T"><img src="https://imgur.com/T3tp41T.png" title="source: imgur.com" /></a>
+
+<a href="https://imgur.com/gaZcNBV"><img src="https://imgur.com/gaZcNBV.png" title="source: imgur.com" /></a>
