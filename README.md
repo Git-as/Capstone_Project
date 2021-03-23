@@ -4,7 +4,7 @@
 
 # Predicting UK Gender Pay Gap Statistics Using Company Data and Employee Reviews
 
-## 1. Repository Contents:
+## 1. Repository Contents
 - [Project Presentation](Capstone_Project_Presentation.pdf)
 - [Indeed Web Scraping](1_indeed_scraping.ipynb)
 - [Companies House API](2_CH_API.ipynb)
@@ -29,19 +29,67 @@ A range of models were applied to the data, using a number of different scenario
 
 The favoured model with the best outcome was the Logistic regression model, using 2 categories - below median gender pay gap and above median gender pay gap.
 
-### Sector Insights
-<b> Key Takeaway: Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. 
-The majority of individuals enrolling in courses related to these fields were male. </b>
 
-<a href="https://imgur.com/ihYWal6"><img src="https://imgur.com/ihYWal6.png" title="source: imgur.com" /></a>
+### Location
+The Midlands had many towns with high positive coefficients, this means that the model predicts below median gender pay gap scores for towns in this area - in other words, there is a lower rate of inequality in the Midlands.
 
-
-### Geographical Insights
-<b> Key Takeaway: The Midlands typically had a lower pay gap compared to the South of England.</b>
+Interestingly, London had a coefficient of -0.2 which means that the model predicts above median scores for companies in London, and the gender pay gap scores in london show a higher rate of inequality. This is generally the case in the areas surrounding London as well, as can be seen on the right.
 
 <a href="https://imgur.com/rNxlttL"><img src="https://imgur.com/rNxlttL.png" title="source: imgur.com" /></a>
 
+### Sector
+The 2018 educational enrollment rates (all levels) split by gender were reviewed, for each sector in order to determine any links This information was obtained from: stats.oecd.org/. Some of the sectors could not be isolated from the educational database, therefore no conclusion was reached as to whether or not they impact gender pay gap.
+
+<a href="https://imgur.com/G225Ury"><img src="https://imgur.com/G225Ury.png" title="source: imgur.com" /></a>
+
+However it does demonstrate that educational enrollment rates play a part in gender pay gap - since those with higher male enrollments tended to have above median scores meaning that the model predicted these sectors to have gender pay gap scores above median, meaning that males are paid more the females. 
+
+<a href="https://imgur.com/ihYWal6"><img src="https://imgur.com/ihYWal6.png" title="source: imgur.com" /></a>
+
 ### Behavioural Insights
-<b> Key Takeaway: Reviews indicating a lack of career progression or low salary are linked with an above median gender pay gap. </b>
+The ‘review cons’ themes that were most associated with below median gender pay gap were:
+* Negative Culture, e.g. ‘blame culture’, ‘high stress’, ‘poor communication’
+* Long hours, e.g. ‘nights long’, ‘early starts’, ‘hours stressful’
+* Poor Management, e.g. ‘working conditions’, ‘bad management’
+
+The ‘review cons’ themes that were most associated with above median gender pay gap were:
+* Career Progression, e.g. ‘Career Progression’, ‘lack progression’, 
+* Poor Pay, e.g. ‘Minimum Wage’, ‘Low Pay’
+* Long Hours, e.g. ‘Job long’, ‘times long’, ‘working weekends’
+* Poor Management, e.g. ‘Terrible Management’, ‘awful management’
+
+Whilst it is not known whether the reviews were written by a male or female, it is interesting that a lack of career progression and poor pay are themes associated with above median gender pay gap.
 
 <a href="https://imgur.com/pbZcMZ4"><img src="https://imgur.com/pbZcMZ4.png" title="source: imgur.com" /></a>
+
+### Proportion of Female Officers
+A higher proportion of female officers was associated with below median gender pay gap. This also aligns with the heat map shown above, that suggested the proportion of female officers was correlated to the mean gender pay gap.
+
+<a href="https://imgur.com/NS5X2HJ"><img src="https://imgur.com/NS5X2HJ.png" title="source: imgur.com" /></a>
+
+### Company Size
+Smaller companies were associated with above median pay and larger companies with below median. This would suggest that larger companies are better at providing more equal pay to men and women.
+
+Eight companies did not provide this information and are listed as ‘Not Provided’. However, the ‘Not Provided’ companies also have a high positive coefficient which implies that those who didn’t include the company size tended to have below median gender pay gap stats.
+
+<a href="https://imgur.com/irHMRUV"><img src="https://imgur.com/irHMRUV.png" title="source: imgur.com" /></a>
+
+### Responsible Person Assigned
+Companies that assigned a responsible person to their gender pay gap report were associated with lower gender pay gap (below median results) than those who did not list a responsible person.
+
+This is unsurprising if you assume that those who did not provide a responsible person do not have a dedicated person to take ownership of gender pay gap within their organisation.
+
+<a href="https://imgur.com/GiNqWFZ"><img src="https://imgur.com/GiNqWFZ.png" title="source: imgur.com" /></a>
+
+
+## 4. Conclusion
+• Sector, Location and Review Cons were the most influential predictors of whether the mean pay gap would be above or below median. 
+• Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. The majority of individuals enrolling in courses related to these fields were male. This indicates that changes need to be made to encourage gender equality from an early age to impact the gender balance in educational enrollment. 
+• The Midlands typically had a lower pay gap compared to the South of England. This could be because certain sectors are more predominant in certain areas or there may be cultural and social differences. 
+• Reviews indicating a lack of career progression or low salary are linked with an above median gender pay gap. These are 'cons' that you would expect for companies that have poor gender pay gap where many women may feel that there are limited career progression options and salary is considered as low. 
+• Size, Proportion of Female Officers and whether or not the company had an assigned responsible person were also important features.
+
+<b>Please find below the links for three useful and interesting articles to understand more about gender pay gap issues:</b>
+1) ig.ft.com/gender-pay-gap-UK/
+2) mckinsey.com/featured-insights/diversity-and-inclusion/women-in-the-workplace
+3) indeed.com/lead/women-in-tech-report
