@@ -90,7 +90,7 @@ This is unsurprising if you assume that those who did not provide a responsible 
 * Reviews indicating a lack of career progression or low salary are linked with an above median gender pay gap. These are 'cons' that you would expect for companies that have poor gender pay gap where many women may feel that there are limited career progression options and salary is considered as low. 
 * Size, Proportion of Female Officers and whether or not the company had an assigned responsible person were also important features.
 
-<b>Please find below the links for three useful and interesting articles to understand more about gender pay gap issues:</b>
+<b>Please find below the links for three useful articles to understand more about gender pay gap issues:</b>
 1) ig.ft.com/gender-pay-gap-UK/
 2) mckinsey.com/featured-insights/diversity-and-inclusion/women-in-the-workplace
 3) indeed.com/lead/women-in-tech-report
