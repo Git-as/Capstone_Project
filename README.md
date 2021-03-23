@@ -117,6 +117,6 @@ This is unsurprising if you assume that those who did not provide a responsible 
 * My greatest achievement from this project, was my determination and ability to find solutions when it at times felt impossible. Seeing a problem and brainstorming until I found a solution that worked also strengthened my ability to know how and where to look online to find solutions. 
 
 <b>Please find below the links for three useful and interesting articles to understand more about gender pay gap issues:</b>
-1) [ig.ft.com/gender-pay-gap-UK/](ig.ft.com/gender-pay-gap-UK/)
-2) [mckinsey.com/featured-insights/diversity-and-inclusion/women-in-the-workplace](mckinsey.com/featured-insights/diversity-and-inclusion/women-in-the-workplace)
-3) [indeed.com/lead/women-in-tech-report](indeed.com/lead/women-in-tech-report)
+1) [ig.ft.com/gender-pay-gap-UK/](https://www.ft.com/products?location=https%3A%2F%2Fig.ft.com%2Fgender-pay-gap-UK%2F)
+2) [mckinsey.com/featured-insights/diversity-and-inclusion/women-in-the-workplace](https://www.mckinsey.com/featured-insights/diversity-and-inclusion/women-in-the-workplace)
+3) [indeed.com/lead/women-in-tech-report](https://www.indeed.com/lead/women-in-tech-report)
