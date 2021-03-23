@@ -5,6 +5,7 @@
 # Predicting UK Gender Pay Gap Statistics Using Company Data and Employee Reviews
 
 ## 1. Repository Contents
+
 - [Project Presentation](Capstone_Project_Presentation.pdf)
 - [Indeed Web Scraping](1_indeed_scraping.ipynb)
 - [Companies House API](2_CH_API.ipynb)
@@ -15,19 +16,23 @@
   
   
 ## 2. Project Goal and Data Collection
+
 The gender pay gap is the difference in the average hourly wage of all men and women across a workforce. If women do more of the less well paid jobs within an organisation than men, such as part time work or less senior roles, the gender pay gap is usually bigger.
 
 Using a range of data relating to company information and employee reviews, the aim of this project was to determine which factors best predict whether a company will have better or worse gender pay gap statistics. 
 
 The gender pay gap data came from the UK Government website, which included basic company information and a range of different measures of gender pay gap performance, including the mean gender pay gap - this shows the mean difference in male and female hourly wage as a percentage.
 
-I obtained further company data from the Companies House website using the CH API. I also performed web scraping to gather employee review data from the job posting website, indeed.com.
+Further company data was obtained from the Companies House website using the CH API. I also performed web scraping to gather employee review data from the job posting website, indeed.com.
 
 
 ## 3. Data Modelling and Insights
+
 A range of models were applied to the data, using a number of different scenarios. For example, by using both continuous or categorical dependent variables, with 2 and 3 categories tried. Various different models were used including Linear, Logistic, Support Vector Machines, K Nearest Neighbours, Random Forest and Decision Tree.
 
-The favoured model with the best outcome was the Logistic regression model, using 2 categories - below median gender pay gap and above median gender pay gap.
+The favoured model with the best outcome was the Logistic regression model, using 2 categories - below median gender pay gap and above median gender pay gap. 
+
+The final model score was 0.66, which was above the bassline score of 0.5. All the models attampted gave scores between 0.61 and 0.66 - K Nearest Neighbours yielded the worst model score and the remaining scores were around 0.63. 
 
 
 ### Location
@@ -47,6 +52,8 @@ However it does demonstrate that educational enrollment rates play a part in gen
 <a href="https://imgur.com/ihYWal6"><img src="https://imgur.com/ihYWal6.png" title="source: imgur.com" /></a>
 
 ### Behavioural Insights
+Natural Language Processing (NLP) was applied to all the text fields in the review - the header, main text, review pros and review cons. Interestingly, only the review cons improved the model score so this is the only field out of the reeview text that was included in the final model. 
+
 The ‘review cons’ themes that were most associated with below median gender pay gap were:
 * Negative Culture, e.g. ‘blame culture’, ‘high stress’, ‘poor communication’
 * Long hours, e.g. ‘nights long’, ‘early starts’, ‘hours stressful’
@@ -84,13 +91,32 @@ This is unsurprising if you assume that those who did not provide a responsible 
 
 ## 4. Conclusion
 
+* The final model applied which yielded the highest score of 0.66 was the logistic regression model. This was above the bassline accuracy score of 0.5. 
 * Sector, Location and Review Cons were the most influential predictors of whether the mean pay gap would be above or below median. 
-* Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. The majority of individuals enrolling in courses related to these fields were male. This indicates that changes need to be made to encourage gender equality from an early age to impact the gender balance in educational enrollment. 
+* Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. The majority of individuals enrolling in courses related to these fields were male. 
 * The Midlands typically had a lower pay gap compared to the South of England. This could be because certain sectors are more predominant in certain areas or there may be cultural and social differences. 
 * Reviews indicating a lack of career progression or low salary are linked with an above median gender pay gap. These are 'cons' that you would expect for companies that have poor gender pay gap where many women may feel that there are limited career progression options and salary is considered as low. 
 * Size, Proportion of Female Officers and whether or not the company had an assigned responsible person were also important features.
 
-<b>Please find below the links for three useful articles to understand more about gender pay gap issues:</b>
+## 5. Key Takeaways
+
+* A model score of 0.66 means that this model has some predictive power in identifying whether a company will have a greater or smaller gender pay gap. It also highlights the key areas of focus for improving this statistic, for example that cities in the South of England and smaller companies need to be acting more to achieve gender pay gap. 
+* The results relating to company sector indicate that changes need to be made to encourage gender equality from an early age to impact the gender balance in educational enrollment. 
+* When performing the NLP, it was interesting to discover that of the full employee reviews, including the review pros or main body of text did not improve the model score and that it was only the review cons which improved the model score. This could be because the cons are more concise than the main body of text, so the individual words have more value. It may also be that the review cons give more of a truthful insight into the company environment than review pros sections. 
+
+## 6. Key Learnings
+
+### Challenges 
+* At the start of the project, it was difficult to find the company information I needed and I wasn't sure if everything I wanted to look at would be available in Companies House. After a lot of extensive research of websites that provide free information on companies, I ended up finding all the information desired on companies house and the government gender pay gap dataset. 
+* Using the Companies House API turned out to be more challenging than expected, there was no guideance on how to use the API for Python, so I had to scroll through forums to piece together the different steps I needed to do to access the information. 
+* There were many different options in terms of models to try - for example which target variable to use, whether to make this a continuous or categorical variable, which predictor variables to include, which parameters to apply for NLP. There were so many different combinations of the above variables that could have been applied and I had to be strategic with the time I had in order to try and get the best model. 
+
+### Milestones 
+* The challenges I had with the API taught me a lot as I had to go through and do a lot of research to understand why it wasnt working and make sure I understood clearly each line of code for all the solutions attempted.
+* The project was also a great way to learn more about NLP and how the parameters affect the results. 
+* My greatest achievement from this project, was my determination and ability to find solutions when it at times felt impossible. Seeing a problem and brainstorming until I found a solution that worked also strengthened my ability to know how and where to look online to find solutions. 
+
+<b>Please find below the links for three useful and interesting articles to understand more about gender pay gap issues:</b>
 1) ig.ft.com/gender-pay-gap-UK/
 2) mckinsey.com/featured-insights/diversity-and-inclusion/women-in-the-workplace
 3) indeed.com/lead/women-in-tech-report
