@@ -83,11 +83,12 @@ This is unsurprising if you assume that those who did not provide a responsible 
 
 
 ## 4. Conclusion
-• Sector, Location and Review Cons were the most influential predictors of whether the mean pay gap would be above or below median. 
-• Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. The majority of individuals enrolling in courses related to these fields were male. This indicates that changes need to be made to encourage gender equality from an early age to impact the gender balance in educational enrollment. 
-• The Midlands typically had a lower pay gap compared to the South of England. This could be because certain sectors are more predominant in certain areas or there may be cultural and social differences. 
-• Reviews indicating a lack of career progression or low salary are linked with an above median gender pay gap. These are 'cons' that you would expect for companies that have poor gender pay gap where many women may feel that there are limited career progression options and salary is considered as low. 
-• Size, Proportion of Female Officers and whether or not the company had an assigned responsible person were also important features.
+
+* Sector, Location and Review Cons were the most influential predictors of whether the mean pay gap would be above or below median. 
+* Construction and Information and Communication were sectors that the model predicted would be associated with above median pay gap, meaning men typically paid more than women. The majority of individuals enrolling in courses related to these fields were male. This indicates that changes need to be made to encourage gender equality from an early age to impact the gender balance in educational enrollment. 
+* The Midlands typically had a lower pay gap compared to the South of England. This could be because certain sectors are more predominant in certain areas or there may be cultural and social differences. 
+* Reviews indicating a lack of career progression or low salary are linked with an above median gender pay gap. These are 'cons' that you would expect for companies that have poor gender pay gap where many women may feel that there are limited career progression options and salary is considered as low. 
+* Size, Proportion of Female Officers and whether or not the company had an assigned responsible person were also important features.
 
 <b>Please find below the links for three useful and interesting articles to understand more about gender pay gap issues:</b>
 1) ig.ft.com/gender-pay-gap-UK/
